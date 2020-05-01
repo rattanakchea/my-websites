@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-100 {
+  font-weight: 100;
+}
+
+.text-300 {
+  font-weight: 300;
+}
+
+.text-400 {
+  font-weight: 400;
+}
+
+.text-500 {
+  font-weight: 400;
+}
+
+:root {
+  --main-bg-color: #acc6e0;
+}
+
+/* jumbotron section */
+.introduction {
+  position: relative;
+  background: var(--main-bg-color);
+  min-height: 30vh;
+}
+
+.wave {
+  position: absolute;
+  height: 32px;
+  width: 100%;
+  background: var(--main-bg-color);
+  bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #fff;
+  right: -1.5%;
+  top: 60%;
+}
+
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: var(--main-bg-color);
+  left: -1.5%;
+  top: 40%;
+}
+/*# sourceMappingURL=style.css.map */

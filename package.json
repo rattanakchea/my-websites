@@ -1,0 +1,12 @@
+{
+  "name": "html-sites",
+  "version": "1.0.0",
+  "description": "This is a place to improve my frontend design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
