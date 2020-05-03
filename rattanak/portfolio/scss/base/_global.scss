@@ -9,18 +9,49 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.text-100 {
-  font-weight: 100;
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.text-300 {
-  font-weight: 300;
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
-.text-400 {
-  font-weight: 400;
+h1 {
+  font-size: $header1;
+}
+li,
+button,
+label,
+input,
+a,
+p {
+  font-size: $text;
 }
 
-.text-500 {
-  font-weight: 400;
+h2 {
+  font-size: $header2;
+}
+
+h3 {
+  font-size: $header3;
+}
+h4,
+h5 {
+  font-size: $header4;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: $gray-text;
 }
