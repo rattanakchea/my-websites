@@ -2,12 +2,11 @@
   --main-bg-color: #acc6e0;
 }
 
-/* ------- < Nav section >-------- */
+/* ------- < Nav section > --------*/
 
 nav {
   @include flex(space-between, center, row);
   min-height: 10vh;
-  width: 60%;
   flex-wrap: wrap;
   .logo {
     @include flex(flex-start, center, row);
@@ -15,7 +14,12 @@ nav {
   }
   ul {
     @include flex(space-around, center, row);
-    flex: 1 1 40rem;
+    flex: 1 1 10rem;
+    list-style-type: none;
+
+    .nav-item {
+      padding: 0 0.5rem;
+    }
   }
 }
 
@@ -26,6 +30,8 @@ nav {
   position: relative;
   background: var(--main-bg-color);
   min-height: 30vh;
+  display: flex;
+  align-items: center;
 }
 
 .wave {
