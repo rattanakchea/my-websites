@@ -2,8 +2,27 @@
   --main-bg-color: #acc6e0;
 }
 
-/* jumbotron section */
-.introduction {
+/* ------- < Nav section >-------- */
+
+nav {
+  @include flex(space-between, center, row);
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+  .logo {
+    @include flex(flex-start, center, row);
+    flex: 1 1 10rem;
+  }
+  ul {
+    @include flex(space-around, center, row);
+    flex: 1 1 40rem;
+  }
+}
+
+/* ------- </ Nav section > -------- */
+
+/* ------- < introduction section >-------- */
+.intro {
   position: relative;
   background: var(--main-bg-color);
   min-height: 30vh;
@@ -39,3 +58,5 @@
   left: -1.5%;
   top: 40%;
 }
+
+/* ------- </ introduction section > -------- */
