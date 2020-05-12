@@ -1,4 +1,61 @@
 //==============================================================================
+// Color
+//==============================================================================
+
+$palettes: (
+  mono: (
+    black: #000,
+    dark: #333,
+    base: #666,
+    light: #888,
+    white: #fff,
+  ),
+  brown: (
+    light: #f7f4ef,
+    medium: #f7f4ee,
+    dark: #aaa392,
+  ),
+  brand: (
+    macaroni: #eba43c,
+    orange: #f37930,
+    green: #75a832,
+    teal: #138f87,
+    darker-gray: #466368,
+    dark-gray: #5c656a,
+    medium-gray: #9baeb2,
+    light-gray: #919598,
+    dark-blue: #1e3037,
+  ),
+);
+/*
+* Better function for color palettes using Sass maps
+* Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+* Usage: color: palette(brand,tan);
+*/
+@function palette($palette, $tone: "base") {
+  @return map-get(map-get($palettes, $palette), $tone);
+}
+
+// example
+button {
+  background-color: palette(brand, teal);
+}
+
+// Color
+$text-primary: #666;
+$text-secondary: #b6a1b0;
+$bg-primary: #49485a;
+$bg-secondary: #f7f8f8;
+$bg-ternary: palette(brand, medium-gray);
+
+$link-primary: #ce944f;
+$link-secondary: #c85535;
+
+$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$background-color: #154353;
+$gray-text: #2c2c2c;
+
+//==============================================================================
 // Structure/Layout
 //==============================================================================
 
@@ -17,13 +74,8 @@ $header4: 2rem;
 $text: 2.5rem;
 
 //==============================================================================
-// Color
+// Mixin
 //==============================================================================
-
-$gradient: linear-gradient(left, #38d39f, #38a4d3);
-$background-color: #154353;
-$gray-text: #2c2c2c;
-
 @mixin flex($justify, $align, $direction) {
   display: flex;
   justify-content: $justify;

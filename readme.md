@@ -12,3 +12,5 @@ This is a place to improve my frontend design.
 - Microsoft Store: https://codepen.io/bradtraversy/details/ZEGGNRb
 
 - https://www.lapa.ninja/
+
+- Theme: https://medium.com/@dmitriy.borodiy/easy-color-theming-with-scss-bc38fd5734d1

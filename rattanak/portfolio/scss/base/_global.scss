@@ -1,6 +1,5 @@
 //==============================================================================
 // This is where we set up all the base case configuration for the whole site
-// - font
 // - color schema
 //==============================================================================
 
@@ -41,8 +40,10 @@
 //==============================================================================
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
+html,
 body {
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 h1,

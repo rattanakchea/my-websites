@@ -5,16 +5,34 @@
 /* ------- < Nav section > --------*/
 
 nav {
+  padding: 1rem 2rem;
   @include flex(space-between, center, row);
   min-height: 10vh;
   flex-wrap: wrap;
-  .logo {
-    @include flex(flex-start, center, row);
-    flex: 1 1 10rem;
+
+  .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: orange;
+
+    &:hover {
+      cursor: pointer;
+      background-color: purple;
+    }
+
+    img {
+      border-radius: 50%;
+      height: 80%;
+      width: 80%;
+    }
   }
+
   ul {
-    @include flex(space-around, center, row);
-    flex: 1 1 10rem;
+    display: flex;
     list-style-type: none;
 
     .nav-item {
@@ -66,3 +84,20 @@ nav {
 }
 
 /* ------- </ introduction section > -------- */
+
+// Footer Section
+
+footer {
+  background: $background-color;
+  color: white;
+  min-height: 10vh;
+  padding: 0% 5%;
+  @include flex(flex-start, center, row);
+  ul {
+    flex: 1 1 40rem;
+    @include flex(space-around, center, row);
+  }
+  h4 {
+    flex: 1 1 40rem;
+  }
+}

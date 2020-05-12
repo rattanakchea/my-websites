@@ -11,12 +11,16 @@
 	<link rel="stylesheet" href="./scss/style.css">
 </head>
 
-<body>
-	<div include-html="./components/nav.html"></div>
-	<div include-html="./components/intro.html"></div>
+<body style="
+display: flex;
+flex-direction: column;
+height: 100%">
+	<div style="flex-shrink: 0;" include-html=" ./components/nav.html">
+	</div>
+	<main style="flex-grow: 1;" include-html="./components/intro.html"></main>
 
 
-	<div include-html="./components/footer.html"></div>
+	<div style="flex-shrink: 0;" include-html="./components/footer.html"></div>
 
 	<script src="./main.js"></script>
 
