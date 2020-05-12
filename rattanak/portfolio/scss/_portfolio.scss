@@ -1,14 +1,17 @@
 :root {
-  --main-bg-color: #acc6e0;
+  // --main-bg-color: yellow;
+  // --main-bg-color: $gradient; // scss variable cannot be used
+  --main-bg-color: linear-gradient(left, #38d39f, #38a4d3);
 }
 
 /* ------- < Nav section > --------*/
-
 nav {
   padding: 1rem 2rem;
   @include flex(space-between, center, row);
   min-height: 10vh;
   flex-wrap: wrap;
+  background-color: $bg-secondary;
+  color: $text-primary;
 
   .avatar {
     display: flex;
@@ -17,11 +20,11 @@ nav {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
-    background-color: orange;
+    background-color: $link-primary;
 
     &:hover {
       cursor: pointer;
-      background-color: purple;
+      background-color: $text-primary;
     }
 
     img {
@@ -36,7 +39,7 @@ nav {
     list-style-type: none;
 
     .nav-item {
-      padding: 0 0.5rem;
+      padding: 0 1rem;
     }
   }
 }
@@ -46,17 +49,18 @@ nav {
 /* ------- < introduction section >-------- */
 .intro {
   position: relative;
-  background: var(--main-bg-color);
+  background: $gradient;
   min-height: 30vh;
   display: flex;
   align-items: center;
+  padding: 1rem;
 }
 
 .wave {
   position: absolute;
   height: 32px;
   width: 100%;
-  background: var(--main-bg-color);
+  background: $gradient;
   bottom: 0;
 }
 
@@ -78,7 +82,7 @@ nav {
 .wave::after {
   width: 55%;
   height: 100%;
-  background-color: var(--main-bg-color);
+  background-color: $gradient;
   left: -1.5%;
   top: 40%;
 }
@@ -88,7 +92,7 @@ nav {
 // Footer Section
 
 footer {
-  background: $background-color;
+  background: $bg-primary;
   color: white;
   min-height: 10vh;
   padding: 0% 5%;
