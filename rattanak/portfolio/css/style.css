@@ -1,0 +1,166 @@
+/*
+* Better function for color palettes using Sass maps
+* Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+* Usage: color: palette(brand,tan);
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+button {
+  background-color: #138f87; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.full-container {
+  max-width: 100%;
+  padding: 0 1rem; }
+
+.container, .container-md {
+  max-width: 1028px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container-md {
+  max-width: 996px; }
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%; }
+
+h1,
+h2,
+h3 {
+  font-weight: 100;
+  margin: 0.6rem 0; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.6rem; }
+
+/*
+* Better function for color palettes using Sass maps
+* Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
+* Usage: color: palette(brand,tan);
+*/
+button {
+  background-color: #138f87; }
+
+:root {
+  --main-bg-color: linear-gradient(left, #38d39f, #38a4d3); }
+
+/* ------- < Nav section > --------*/
+nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 10vh;
+  flex-wrap: wrap;
+  background-color: #f7f8f8;
+  color: #666; }
+  nav .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background-color: #625ae6; }
+    nav .avatar:hover {
+      cursor: pointer;
+      background-color: #666; }
+    nav .avatar img {
+      border-radius: 50%;
+      height: 80%;
+      width: 80%; }
+  nav ul {
+    display: flex;
+    list-style-type: none; }
+    nav ul .nav-item {
+      padding: 0 1rem; }
+
+/* ------- </ Nav section > -------- */
+/* ------- < introduction section >-------- */
+.intro {
+  position: relative;
+  min-height: 30vh;
+  display: flex;
+  padding: 1rem; }
+
+.intro-container {
+  display: flex;
+  align-items: center; }
+  .intro-container div {
+    flex-basis: 100%; }
+  .intro-container div.about-me h1 {
+    color: #625ae6; }
+
+.wave {
+  position: absolute;
+  height: 32px;
+  width: 100%;
+  background: linear-gradient(left, #38d39f, #38a4d3);
+  bottom: 0; }
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%; }
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #fff;
+  right: -1.5%;
+  top: 60%; }
+
+.wave::after {
+  width: 55%;
+  height: 100%;
+  left: -1.5%;
+  top: 40%; }
+
+/* ------- </ introduction section > -------- */
+footer {
+  background: #49485a;
+  color: white;
+  min-height: 10vh;
+  padding: 0% 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row; }
+  footer ul {
+    flex: 1 1 40rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row; }
+  footer h4 {
+    flex: 1 1 40rem; }
+
+.text-100 {
+  font-weight: 100; }
+
+.text-300 {
+  font-weight: 300; }
+
+.text-400 {
+  font-weight: 400; }
+
+.text-500 {
+  font-weight: 400; }
+
+.width-100 {
+  width: 100%; }

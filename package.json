@@ -4,6 +4,7 @@
   "description": "This is a place to improve my frontend design.",
   "main": "index.js",
   "scripts": {
+    "node-sass": "node-sass --watch rattanak/portfolio/scss/style.scss rattanak/portfolio/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -1,3 +1,5 @@
+@import "base/variables";
+
 :root {
   // --main-bg-color: yellow;
   // --main-bg-color: $gradient; // scss variable cannot be used
@@ -49,11 +51,25 @@ nav {
 /* ------- < introduction section >-------- */
 .intro {
   position: relative;
-  background: $gradient;
+  // background: $gradient;
   min-height: 30vh;
   display: flex;
-  align-items: center;
   padding: 1rem;
+}
+
+.intro-container {
+  display: flex;
+  align-items: center;
+
+  div {
+    flex-basis: 100%;
+  }
+
+  div.about-me {
+    h1 {
+      color: $link-primary;
+    }
+  }
 }
 
 .wave {
@@ -82,7 +98,7 @@ nav {
 .wave::after {
   width: 55%;
   height: 100%;
-  background-color: $gradient;
+  // background-color: $gradient;
   left: -1.5%;
   top: 40%;
 }
@@ -92,7 +108,7 @@ nav {
 // Footer Section
 
 footer {
-  background: $bg-primary;
+  background: #49485a;
   color: white;
   min-height: 10vh;
   padding: 0% 5%;
