@@ -128,6 +128,7 @@ nav {
 .wave::after {
   width: 55%;
   height: 100%;
+  background-color: linear-gradient(left, #38d39f, #38a4d3);
   left: -1.5%;
   top: 40%; }
 
