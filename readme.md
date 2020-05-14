@@ -9,6 +9,7 @@ This is a place to improve my frontend design.
 
 ## Links
 
+- https://uidesigndaily.com/
 - Microsoft Store: https://codepen.io/bradtraversy/details/ZEGGNRb
 
 - https://www.lapa.ninja/

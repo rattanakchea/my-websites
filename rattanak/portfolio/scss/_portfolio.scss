@@ -6,7 +6,8 @@
   --main-bg-color: linear-gradient(left, #38d39f, #38a4d3);
 }
 
-/* ------- < Nav section > --------*/
+/* ------------- NAV SECTION -----------------------*/
+
 nav {
   padding: 1rem 2rem;
   @include flex(space-between, center, row);
@@ -46,9 +47,9 @@ nav {
   }
 }
 
-/* ------- </ Nav section > -------- */
+/* ------------- /NAV SECTION -----------------------*/
 
-/* ------- introduction section -------- */
+/* ------------- INTRO SECTION -----------------------*/
 .intro {
   position: relative;
   // background: $gradient;
@@ -126,7 +127,7 @@ nav {
 
 /* ------------- /WORK SECTION -----------------------*/
 
-// Footer Section
+/* ------------- FOOTER SECTION -----------------------*/
 
 footer {
   background: #49485a;

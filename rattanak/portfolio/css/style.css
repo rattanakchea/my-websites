@@ -1,30 +1,44 @@
+/*--------------
+COLOR for common elements
+- color palletes map
+
+
+TYPOGRAPHY for common element
+- font?
+- size
+- color
+- spacing
+*/
 /*
 * Better function for color palettes using Sass maps
 * Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
 * Usage: color: palette(brand,tan);
 */
+/*----------------- COMMON ELEMENTS ------------------
+- body text
+- link
+- button
+*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+p {
+  color: #b6a1b0; }
+
+h1,
+h2,
+h3 {
+  color: #666; }
+
+a,
+a:active {
+  color: #c85535; }
+
+a:hover {
+  color: rgba(117, 70, 10, 0.580392); }
+
 button {
   background-color: #138f87; }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-.full-container {
-  max-width: 100%;
-  padding: 0 1rem; }
-
-.container, .container-md {
-  max-width: 1028px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
-
-.container-md {
-  max-width: 996px; }
-
+/*----------------- TYPOGRAPHY ------------------*/
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -45,18 +59,28 @@ h2 {
 h3 {
   font-size: 1.6rem; }
 
-/*
-* Better function for color palettes using Sass maps
-* Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
-* Usage: color: palette(brand,tan);
-*/
-button {
-  background-color: #138f87; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.full-container {
+  max-width: 100%;
+  padding: 0 1rem; }
+
+.container, .container-md {
+  max-width: 1028px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container-md {
+  max-width: 996px; }
 
 :root {
   --main-bg-color: linear-gradient(left, #38d39f, #38a4d3); }
 
-/* ------- < Nav section > --------*/
+/* ------------- NAV SECTION -----------------------*/
 nav {
   padding: 1rem 2rem;
   display: flex;
@@ -74,7 +98,7 @@ nav {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
-    background-color: #625ae6; }
+    background-color: #d37f1294; }
     nav .avatar:hover {
       cursor: pointer;
       background-color: #666; }
@@ -88,8 +112,8 @@ nav {
     nav ul .nav-item {
       padding: 0 1rem; }
 
-/* ------- </ Nav section > -------- */
-/* ------- introduction section -------- */
+/* ------------- /NAV SECTION -----------------------*/
+/* ------------- INTRO SECTION -----------------------*/
 .intro {
   position: relative;
   min-height: 30vh;
@@ -104,7 +128,7 @@ nav {
   .intro-container .intro-social {
     margin: 1rem 0; }
   .intro-container div.about-me h1 {
-    color: #625ae6; }
+    color: #d37f1294; }
 
 .wave {
   position: absolute;
@@ -141,6 +165,7 @@ nav {
   padding: 1rem 0 2rem; }
 
 /* ------------- /WORK SECTION -----------------------*/
+/* ------------- FOOTER SECTION -----------------------*/
 footer {
   background: #49485a;
   color: white;
