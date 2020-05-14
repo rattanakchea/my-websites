@@ -6,8 +6,8 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/buttons";
-@import "components/form";
+@import "elements/buttons";
+@import "elements/form";
 
 // include custom header, nav, footer, custom page
-@import "layout/portfolio";
+@import "page/portfolio";

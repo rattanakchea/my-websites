@@ -17,17 +17,8 @@
 .container-md {
   max-width: 996px; }
 
-/*--------------
-COLOR for common elements
-- color palletes map
-
-
-TYPOGRAPHY for common element
-- font?
-- size
-- color
-- spacing
-*/
+/* =======================  COLOR ======================
+========================================================*/
 /*
 * Better function for color palettes using Sass maps
 * Link: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/

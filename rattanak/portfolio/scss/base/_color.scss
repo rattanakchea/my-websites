@@ -1,14 +1,5 @@
-/*--------------
-COLOR for common elements
-- color palletes map
-
-
-TYPOGRAPHY for common element
-- font?
-- size
-- color
-- spacing
-*/
+/* =======================  COLOR ======================
+========================================================*/
 
 $palettes: (
   mono: (
@@ -88,6 +79,12 @@ button {
 }
 
 /*----------------- TYPOGRAPHY ------------------*/
+// TYPOGRAPHY for common element
+// - font?
+// - size
+// - color
+// - spacing
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 html,
