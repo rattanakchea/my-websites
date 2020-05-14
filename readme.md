@@ -14,3 +14,7 @@ This is a place to improve my frontend design.
 - https://www.lapa.ninja/
 
 - Theme: https://medium.com/@dmitriy.borodiy/easy-color-theming-with-scss-bc38fd5734d1
+
+## Icon Monster
+
+- https://iconmonstr.com/linkedin-3-png/

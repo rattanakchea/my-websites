@@ -65,10 +65,14 @@ nav {
     flex-basis: 100%;
   }
 
+  .intro-social {
+    margin: 1rem 0;
+  }
+
   .image {
     svg#computer-svg {
       path#computer {
-        fill: $link-primary;
+        // fill: $link-primary;
       }
     }
   }
@@ -111,7 +115,16 @@ nav {
   top: 40%;
 }
 
-/* ------- </ introduction section > -------- */
+/* -------------- /INTRO SECTION ----------------------- */
+
+/* ------------- WORK SECTION -----------------------*/
+
+.work {
+  background-color: $bg-secondary;
+  padding: 1rem 0 2rem;
+}
+
+/* ------------- /WORK SECTION -----------------------*/
 
 // Footer Section
 

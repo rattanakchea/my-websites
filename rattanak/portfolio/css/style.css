@@ -101,8 +101,8 @@ nav {
   align-items: center; }
   .intro-container div {
     flex-basis: 100%; }
-  .intro-container .image svg#computer-svg path#computer {
-    fill: #625ae6; }
+  .intro-container .intro-social {
+    margin: 1rem 0; }
   .intro-container div.about-me h1 {
     color: #625ae6; }
 
@@ -134,7 +134,13 @@ nav {
   left: -1.5%;
   top: 40%; }
 
-/* ------- </ introduction section > -------- */
+/* -------------- /INTRO SECTION ----------------------- */
+/* ------------- WORK SECTION -----------------------*/
+.work {
+  background-color: #f7f8f8;
+  padding: 1rem 0 2rem; }
+
+/* ------------- /WORK SECTION -----------------------*/
 footer {
   background: #49485a;
   color: white;
