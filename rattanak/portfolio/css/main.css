@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.full-container {
+  max-width: 100%;
+  padding: 0 1rem; }
+
+.container, .container-md {
+  max-width: 1028px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container-md {
+  max-width: 996px; }
+
 /*--------------
 COLOR for common elements
 - color palletes map
@@ -19,7 +38,6 @@ TYPOGRAPHY for common element
 - link
 - button
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 p {
   color: #b6a1b0; }
 
@@ -59,26 +77,20 @@ h2 {
 h3 {
   font-size: 1.6rem; }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+.text-100 {
+  font-weight: 100; }
 
-.full-container {
-  max-width: 100%;
-  padding: 0 1rem; }
+.text-300 {
+  font-weight: 300; }
 
-.container, .container-md {
-  max-width: 1028px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto; }
+.text-400 {
+  font-weight: 400; }
 
-.container-md {
-  max-width: 996px; }
+.text-500 {
+  font-weight: 400; }
 
-:root {
-  --main-bg-color: linear-gradient(left, #38d39f, #38a4d3); }
+.width-100 {
+  width: 100%; }
 
 /* ------------- NAV SECTION -----------------------*/
 nav {
@@ -183,18 +195,3 @@ footer {
     flex-direction: row; }
   footer h4 {
     flex: 1 1 40rem; }
-
-.text-100 {
-  font-weight: 100; }
-
-.text-300 {
-  font-weight: 300; }
-
-.text-400 {
-  font-weight: 400; }
-
-.text-500 {
-  font-weight: 400; }
-
-.width-100 {
-  width: 100%; }
