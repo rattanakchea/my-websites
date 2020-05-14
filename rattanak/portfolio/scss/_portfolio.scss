@@ -48,7 +48,7 @@ nav {
 
 /* ------- </ Nav section > -------- */
 
-/* ------- < introduction section >-------- */
+/* ------- introduction section -------- */
 .intro {
   position: relative;
   // background: $gradient;
@@ -63,6 +63,14 @@ nav {
 
   div {
     flex-basis: 100%;
+  }
+
+  .image {
+    svg#computer-svg {
+      path#computer {
+        fill: $link-primary;
+      }
+    }
   }
 
   div.about-me {

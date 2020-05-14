@@ -89,7 +89,7 @@ nav {
       padding: 0 1rem; }
 
 /* ------- </ Nav section > -------- */
-/* ------- < introduction section >-------- */
+/* ------- introduction section -------- */
 .intro {
   position: relative;
   min-height: 30vh;
@@ -101,6 +101,8 @@ nav {
   align-items: center; }
   .intro-container div {
     flex-basis: 100%; }
+  .intro-container .image svg#computer-svg path#computer {
+    fill: #625ae6; }
   .intro-container div.about-me h1 {
     color: #625ae6; }
 
