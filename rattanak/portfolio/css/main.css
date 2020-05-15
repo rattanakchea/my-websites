@@ -1627,12 +1627,16 @@
 body {
   color: #303742; }
 
+body.theme-dark {
+  color: #fff;
+  background-color: #303742; }
+
 a,
 a:active {
   color: #fff; }
 
 a:hover {
-  color: #dc1a21; }
+  color: #863694; }
 
 /*----------------- TYPOGRAPHY ------------------*/
 html,
@@ -1679,7 +1683,7 @@ nav {
   flex-direction: row;
   min-height: 10vh;
   flex-wrap: wrap;
-  background-color: #ee6e73; }
+  background-color: #ba68c8; }
   nav .avatar {
     display: flex;
     justify-content: center;
