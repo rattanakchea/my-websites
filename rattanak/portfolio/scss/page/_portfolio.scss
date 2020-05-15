@@ -1,20 +1,11 @@
-// @import "base/variables";
-
-// :root {
-//   // --main-bg-color: yellow;
-//   // --main-bg-color: $gradient; // scss variable cannot be used
-//   --main-bg-color: linear-gradient(left, #38d39f, #38a4d3);
-// }
-
 /* ------------- NAV SECTION -----------------------*/
-
 nav {
   padding: 1rem 2rem;
   @include flex(space-between, center, row);
   min-height: 10vh;
   flex-wrap: wrap;
-  background-color: $bg-secondary;
-  color: $text-primary;
+  background-color: $primary-color;
+  // color: $dark-color;
 
   .avatar {
     display: flex;
@@ -23,11 +14,11 @@ nav {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
-    background-color: $link-primary;
+    background-color: $secondary-color;
 
     &:hover {
       cursor: pointer;
-      background-color: $text-primary;
+      background-color: $dark-color;
     }
 
     img {
@@ -73,14 +64,13 @@ nav {
   .image {
     svg#computer-svg {
       path#computer {
-        // fill: $link-primary;
+        // fill: $primary-color;
       }
     }
   }
 
   div.about-me {
     h1 {
-      color: $link-primary;
     }
   }
 }
@@ -121,7 +111,7 @@ nav {
 /* ------------- WORK SECTION -----------------------*/
 
 .work {
-  background-color: $bg-secondary;
+  background-color: $secondary-color;
   padding: 1rem 0 2rem;
 }
 
