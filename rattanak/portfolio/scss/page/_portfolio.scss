@@ -4,8 +4,6 @@ nav {
   @include flex(space-between, center, row);
   min-height: 10vh;
   flex-wrap: wrap;
-  background-color: $primary-color;
-  // color: $dark-color;
 
   .avatar {
     display: flex;
@@ -14,11 +12,9 @@ nav {
     border-radius: 50%;
     height: 3rem;
     width: 3rem;
-    background-color: $secondary-color;
 
     &:hover {
       cursor: pointer;
-      background-color: $dark-color;
     }
 
     img {
@@ -43,7 +39,6 @@ nav {
 /* ------------- INTRO SECTION -----------------------*/
 .intro {
   position: relative;
-  // background: $gradient;
   min-height: 30vh;
   display: flex;
   padding: 1rem;
@@ -79,7 +74,6 @@ nav {
   position: absolute;
   height: 32px;
   width: 100%;
-  background: $gradient;
   bottom: 0;
 }
 
@@ -94,14 +88,13 @@ nav {
 .wave::before {
   width: 55%;
   height: 109%;
-  background-color: #fff;
+  // background-color: #fff;
   right: -1.5%;
   top: 60%;
 }
 .wave::after {
   width: 55%;
   height: 100%;
-  background-color: $gradient;
   left: -1.5%;
   top: 40%;
 }
@@ -111,7 +104,6 @@ nav {
 /* ------------- WORK SECTION -----------------------*/
 
 .work {
-  background-color: $secondary-color;
   padding: 1rem 0 2rem;
 }
 
@@ -120,8 +112,6 @@ nav {
 /* ------------- FOOTER SECTION -----------------------*/
 
 footer {
-  background: #49485a;
-  color: white;
   min-height: 10vh;
   padding: 0% 5%;
   @include flex(flex-start, center, row);
