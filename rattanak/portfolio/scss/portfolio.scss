@@ -1,4 +1,9 @@
-/* ------------- NAV SECTION -----------------------*/
+@import "../../scss/devin-1.0.scss";
+
+body {
+  // font-family: Roboto;
+}
+
 nav {
   padding: 1rem 2rem;
   @include flex(space-between, center, row);
@@ -99,17 +104,12 @@ nav {
   top: 40%;
 }
 
-/* -------------- /INTRO SECTION ----------------------- */
-
-/* ------------- WORK SECTION -----------------------*/
-
+// Work
 .work {
   padding: 1rem 0 2rem;
 }
 
-/* ------------- /WORK SECTION -----------------------*/
-
-/* ------------- FOOTER SECTION -----------------------*/
+// <Footer>
 
 footer {
   min-height: 10vh;

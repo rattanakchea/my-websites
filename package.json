@@ -7,7 +7,7 @@
     "node-sass": "node-sass --watch rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css",
     "start": "npm-run-all --parallel liveserver watch",
     "liveserver": "live-server",
-    "watch": "node-sass rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css -w",
+    "watch": "node-sass rattanak/portfolio/scss/portfolio.scss rattanak/portfolio/scss/portfolio.css -w",
     "compile": "node-sass rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css",
     "prefix": "postcss css/style.css --use autoprefixer -o rattanak/portfolio/css/main.css",
     "compress": "node-sass css/style.css css/style.css --output-style compressed",
