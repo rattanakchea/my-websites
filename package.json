@@ -11,7 +11,8 @@
     "compile": "node-sass rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css",
     "prefix": "postcss css/style.css --use autoprefixer -o rattanak/portfolio/css/main.css",
     "compress": "node-sass css/style.css css/style.css --output-style compressed",
-    "build": "npm-run-all compile prefix compress"
+    "build": "npm-run-all compile prefix compress",
+    "build:devin": "node-sass --watch rattanak/scss/devin-1.0.scss rattanak/scss/dist/devin-1.0.css"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
