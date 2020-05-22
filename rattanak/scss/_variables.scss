@@ -59,3 +59,8 @@ $color-secondary-light: lighten($color-secondary, 10%);
 
 // gradient
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
+
+// Typography
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+$font-family-base: "Roboto", sans-serif;

@@ -1,15 +1,6 @@
 // default css like mvp.css, on html elements
 // no class
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
-
-html,
-body {
-  font-family: "Roboto", sans-serif;
-  height: 100%;
-  font-weight: 100;
-}
-
 *,
 *::before,
 *::after {
@@ -22,11 +13,12 @@ body {
   font-size: 16px;
 }
 
+html,
 body {
-  //   font-family: $font-family-base;
-  //   @include font-size($font-size-base);
-  //   font-weight: $font-weight-base;
-  //   line-height: $line-height-base;
+  font-family: $font-family-base;
+  height: 100%;
+  font-weight: 100;
+  line-height: 2rem;
   color: $color-default;
   background-color: $gray-100;
   -webkit-text-size-adjust: 100%;
@@ -39,5 +31,19 @@ h1,
 h2,
 h3 {
   font-weight: 300;
-  margin: 0.6rem 0;
+  margin: 1.5rem 0 1rem;
+}
+
+// Links
+a {
+  color: $color-primary;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-secondary;
+  // filter: brightness($color-primary-dark);
+  text-decoration: underline;
+  cursor: pointer;
 }
