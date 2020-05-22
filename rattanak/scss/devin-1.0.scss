@@ -1,12 +1,13 @@
 // This a library that must be imported by other custom website
 
-@import "abstracts/variables";
+@import "variables";
 @import "abstracts/functions";
 
-@import "base/reboot";
+@import "default";
 @import "base/color";
 @import "base/typography";
-@import "base/utilities";
+
+@import "utilities";
 
 // elements
 @import "elements/buttons";

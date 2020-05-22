@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100%; }
+
 *,
 *::before,
 *::after {
@@ -8,17 +13,10 @@
   font-size: 16px; }
 
 body {
-  margin: 0;
   color: #212529;
-  background-color: #fff;
+  background-color: #f8f9fa;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-
-/*----------------- TYPOGRAPHY ------------------*/
-html,
-body {
-  font-family: "Roboto", sans-serif;
-  height: 100%; }
 
 h1,
 h2,
@@ -26,14 +24,32 @@ h3 {
   font-weight: 300;
   margin: 0.6rem 0; }
 
-h1 {
-  font-size: 3rem; }
+.text-primary {
+  color: #0d6efd; }
 
-h2 {
-  font-size: 2rem; }
+.text-secondary {
+  color: #0d6efd; }
 
-h3 {
-  font-size: 1.6rem; }
+.text-success {
+  color: #28a745; }
+
+.text-warning {
+  color: #ffc107; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-grey {
+  background-color: #adb5bd; }
+
+.bg-dark {
+  background-color: #16171815; }
+
+.bg-primary {
+  background-color: #0d6efd; }
+
+.bg-secondary {
+  background-color: #fd7e14; }
 
 .full-container {
   max-width: 100%;

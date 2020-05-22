@@ -1,3 +1,41 @@
+// --------- Color utility ---------------------
+
+// text
+.text-primary {
+  color: $color-primary;
+}
+
+.text-secondary {
+  color: $color-primary;
+}
+
+.text-success {
+  color: $color-success;
+}
+
+.text-warning {
+  color: $color-warning;
+}
+
+// background
+.bg-white {
+  background-color: $white;
+}
+.bg-grey {
+  background-color: $gray-500;
+}
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.bg-secondary {
+  background-color: $color-secondary;
+}
+
 //==============================================================================
 // Structure/Layout
 //==============================================================================

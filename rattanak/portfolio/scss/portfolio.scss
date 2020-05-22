@@ -1,8 +1,6 @@
 @import "../../scss/devin-1.0.scss";
 
-body {
-  // font-family: Roboto;
-}
+// override some variables?
 
 nav {
   padding: 1rem 2rem;
@@ -93,7 +91,6 @@ nav {
 .wave::before {
   width: 55%;
   height: 109%;
-  // background-color: #fff;
   right: -1.5%;
   top: 60%;
 }
