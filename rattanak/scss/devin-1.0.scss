@@ -1,14 +1,8 @@
 // This a library that must be imported by other custom website
 
 @import "variables";
-@import "abstracts/functions";
+@import "mixins";
+
+@import "utilities"; // utilities class
 
 @import "default";
-@import "base/color";
-@import "base/typography";
-
-@import "utilities";
-
-// elements
-@import "elements/buttons";
-@import "elements/form";

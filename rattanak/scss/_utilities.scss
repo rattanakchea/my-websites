@@ -1,6 +1,18 @@
 // --------- Color utility ---------------------
 
 // text
+.text-white {
+  color: $white;
+}
+
+.text-dark {
+  color: $dark;
+}
+
+.text-black {
+  color: black;
+}
+
 .text-primary {
   color: $color-primary;
 }
@@ -21,7 +33,7 @@
 .bg-white {
   background-color: $white;
 }
-.bg-grey {
+.bg-gray {
   background-color: $gray-500;
 }
 .bg-dark {
