@@ -1,6 +1,19 @@
-@import "../../scss/devin-1.0.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
 // override some variables?
+
+$font-family-base: "Roboto", sans-serif;
+
+// $color-default: $gray-900;
+// $color-default-1: $gray-500;
+// $color-default-2: $gray-300;
+
+// $color-primary: $blue;
+// $color-secondary: $orange;
+
+@import "../../scss/devin-1.0";
+
+// custom styles
 
 nav {
   padding: 1rem 2rem;

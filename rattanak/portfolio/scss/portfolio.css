@@ -60,14 +60,11 @@
 
 html,
 body {
-  font-family: "Roboto", sans-serif;
-  height: 100%;
-  font-weight: 100;
-  line-height: 2rem;
+  font-family: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
   color: #212529;
   background-color: #f8f9fa;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  height: 100%;
+  line-height: 2rem; }
 
 h1,
 h2,

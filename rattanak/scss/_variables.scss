@@ -50,17 +50,16 @@ $color-default-1: $gray-500 !default;
 $color-default-2: $gray-300 !default;
 
 $color-primary: $blue !default; //link, button, primary
-$color-primary-dark: darken($color-primary, 10%);
-$color-primary-light: lighten($color-primary, 10%);
+$color-primary-dark: darken($color-primary, 10%) !default;
+$color-primary-light: lighten($color-primary, 10%) !default;
 
-$color-secondary: $orange;
-$color-secondary-dark: darken($color-secondary, 10%);
-$color-secondary-light: lighten($color-secondary, 10%);
+$color-secondary: $orange !default;
+$color-secondary-dark: darken($color-secondary, 10%) !default;
+$color-secondary-light: lighten($color-secondary, 10%) !default;
 
 // gradient
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
 
 // Typography
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
-$font-family-base: "Roboto", sans-serif;
+$font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
+  sans-serif;
