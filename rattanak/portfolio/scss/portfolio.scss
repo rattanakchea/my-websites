@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 
+// color palette chrome-extension://pekhihjiehdafocefoimckjpbkegknoh/screenshot.html?id=100
+
 // override some variables?
 
 $font-family-base: "Roboto", sans-serif;
 
-// $color-default: $gray-900;
+$white: #fcfcfc;
+$black: #030303;
+$color-default: #030303;
 // $color-default-1: $gray-500;
 // $color-default-2: $gray-300;
 
-// $color-primary: $blue;
-// $color-secondary: $orange;
+$color-primary: #f1c240;
+$color-secondary: #3383cc;
 
 @import "../../scss/devin-1.0";
 
@@ -59,6 +63,7 @@ nav {
   min-height: 30vh;
   display: flex;
   padding: 1rem;
+  background-color: $gray-300;
 }
 
 .intro-container {

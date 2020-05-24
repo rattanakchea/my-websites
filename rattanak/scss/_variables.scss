@@ -38,24 +38,24 @@ $gray-900: #212529 !default;
 $dark: rgb(36, 34, 34) !default;
 $black: black !default;
 
-// -------- by category -----------------
+// -------- color by category -----------------
 $color-success: $green !default;
 $color-info: $cyan !default;
 $color-warning: $yellow !default;
 $color-error: $red !default;
 
-// ------ by function ----------
+// ------ color by function ----------
 $color-default: $gray-900 !default; //main text or background on body
 $color-default-1: $gray-500 !default;
 $color-default-2: $gray-300 !default;
 
 $color-primary: $blue !default; //link, button, primary
-$color-primary-dark: darken($color-primary, 10%) !default;
 $color-primary-light: lighten($color-primary, 10%) !default;
+$color-primary-dark: darken($color-primary, 10%) !default;
 
 $color-secondary: $orange !default;
-$color-secondary-dark: darken($color-secondary, 10%) !default;
 $color-secondary-light: lighten($color-secondary, 10%) !default;
+$color-secondary-dark: darken($color-secondary, 10%) !default;
 
 // gradient
 $gradient: linear-gradient(left, #38d39f, #38a4d3);

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 .text-white {
-  color: #fff; }
+  color: #fcfcfc; }
 
 .text-dark {
   color: #242222; }
@@ -9,10 +9,10 @@
   color: black; }
 
 .text-primary {
-  color: #0d6efd; }
+  color: #f1c240; }
 
 .text-secondary {
-  color: #fd7e14; }
+  color: #3383cc; }
 
 .text-success {
   color: #28a745; }
@@ -21,7 +21,7 @@
   color: #ffc107; }
 
 .bg-white {
-  background-color: #fff; }
+  background-color: #fcfcfc; }
 
 .bg-gray {
   background-color: #adb5bd; }
@@ -30,10 +30,10 @@
   background-color: #242222; }
 
 .bg-primary {
-  background-color: #0d6efd; }
+  background-color: #f1c240; }
 
 .bg-secondary {
-  background-color: #fd7e14; }
+  background-color: #3383cc; }
 
 .full-container {
   max-width: 100%;
@@ -61,8 +61,8 @@
 html,
 body {
   font-family: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
-  color: #212529;
-  background-color: #f8f9fa;
+  color: #030303;
+  background-color: #fcfcfc;
   height: 100%;
   line-height: 2rem; }
 
@@ -73,12 +73,12 @@ h3 {
   margin: 1.5rem 0 1rem; }
 
 a {
-  color: #0d6efd;
+  color: #f1c240;
   display: inline-block;
   text-decoration: none; }
 
 a:hover {
-  color: #fd7e14;
+  color: #3383cc;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -99,7 +99,7 @@ nav {
     width: 3rem; }
     nav .avatar:hover {
       cursor: pointer;
-      background-color: #fd7e14; }
+      background-color: #3383cc; }
     nav .avatar img {
       border-radius: 50%;
       height: 80%;
@@ -116,7 +116,8 @@ nav {
   position: relative;
   min-height: 30vh;
   display: flex;
-  padding: 1rem; }
+  padding: 1rem;
+  background-color: #dee2e6; }
 
 .intro-container {
   display: flex;
