@@ -1,5 +1,10 @@
 dist
 node_modules
+*/node_modules
+.cache
+.DS_Store
+*/.cache
+*/.DS_Store
 rattanak/portfolio/scss/main.css.map
 rattanak/portfolio/scss/main.css
 rattanak/portfolio/scss/style.css.map
