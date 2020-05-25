@@ -127,31 +127,6 @@ nav {
   .intro-container .intro-social {
     margin: 1rem 0; }
 
-.wave {
-  position: absolute;
-  height: 32px;
-  width: 100%;
-  bottom: 0; }
-
-.wave::before,
-.wave::after {
-  content: "";
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%; }
-
-.wave::before {
-  width: 55%;
-  height: 109%;
-  right: -1.5%;
-  top: 60%; }
-
-.wave::after {
-  width: 55%;
-  height: 100%;
-  left: -1.5%;
-  top: 40%; }
-
 .work {
   padding: 1rem 0 2rem; }
 
