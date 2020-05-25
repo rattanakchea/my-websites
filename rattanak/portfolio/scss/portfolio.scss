@@ -36,6 +36,7 @@ nav {
     &:hover {
       cursor: pointer;
       background-color: $color-secondary;
+      transition: background 1000ms ease-in-out, color 2000ms ease-in-out;
     }
 
     img {
