@@ -13,7 +13,7 @@ $color-default: #030303;
 // $color-default-2: $gray-300;
 
 $color-primary: #f1c240;
-$color-secondary: #3383cc;
+$color-secondary: #6c63ff;
 
 @import "../../scss/devin-1.0";
 
@@ -75,6 +75,7 @@ nav {
   display: flex;
   padding: 1rem;
   background-color: $gray-300;
+  background-color: #fcf1e2;
 }
 
 .intro-container {

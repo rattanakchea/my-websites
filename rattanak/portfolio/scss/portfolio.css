@@ -1,39 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
-.text-white {
-  color: #fcfcfc; }
-
-.text-dark {
-  color: #242222; }
-
-.text-black {
-  color: black; }
-
-.text-primary {
-  color: #f1c240; }
-
-.text-secondary {
-  color: #3383cc; }
-
-.text-success {
-  color: #28a745; }
-
-.text-warning {
-  color: #ffc107; }
-
-.bg-white {
-  background-color: #fcfcfc; }
-
-.bg-gray {
-  background-color: #adb5bd; }
-
-.bg-dark {
-  background-color: #242222; }
-
 .bg-primary {
-  background-color: #f1c240; }
+  background-color: #171392; }
 
 .bg-secondary {
-  background-color: #3383cc; }
+  background-color: #d92d7a; }
+
+.bg-background {
+  background-color: #f9f9f9; }
+
+.bg-gray {
+  background-color: #5e5d6b; }
+
+.bg-light {
+  background-color: #fff; }
+
+.bg-secondary {
+  background-color: #6c63ff; }
 
 .full-container {
   max-width: 100%;
@@ -78,7 +60,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #3383cc;
+  color: #6c63ff;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -100,11 +82,11 @@ nav {
     position: relative; }
     nav .avatar:hover {
       cursor: pointer;
-      background-color: #3383cc;
+      background-color: #6c63ff;
       transition: background 1000ms ease-in-out, color 2000ms ease-in-out; }
       nav .avatar:hover:after {
         content: "Hey";
-        color: #3383cc;
+        color: #6c63ff;
         font-family: cursive, Georgia, "Times New Roman", Times, serif;
         position: absolute;
         top: 0px;
@@ -126,7 +108,8 @@ nav {
   min-height: 30vh;
   display: flex;
   padding: 1rem;
-  background-color: #dee2e6; }
+  background-color: #dee2e6;
+  background-color: #fcf1e2; }
 
 .intro-container {
   display: flex;
