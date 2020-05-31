@@ -44,7 +44,7 @@ $color-info: $cyan !default;
 $color-warning: $yellow !default;
 $color-error: $red !default;
 
-// ------ color by function ----------
+// ------ Brand color by function ----------
 $color-default: $gray-900 !default; //main text or background on body
 $color-default-1: $gray-500 !default;
 $color-default-2: $gray-300 !default;
@@ -61,15 +61,14 @@ $color-secondary-dark: darken($color-secondary, 10%) !default;
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
 
 $colors-map: (
-  "white": $white,
+  white: $white,
   "dark": $dark,
   "black": $black,
   "primary": $color-primary,
   "secondary": $color-secondary,
-  "gradient": $gradient,
+  gradient: $gradient,
 ) !default;
 
 // Typography
 $font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
-  sans-serif;
-
+  sans-serif !default;

@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 body {
-  font-family: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
-  color: #030303;
-  background-color: #fcfcfc; }
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  background-color: #fff; }
 
 .dark-theme, body.dark-theme {
-  font-family: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
-  color: #fcfcfc;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
   background-color: #242222; }
 
 .text-white {
-  color: #fcfcfc; }
+  color: #fff; }
 
 .bg-white {
-  background-color: #fcfcfc; }
+  background-color: #fff; }
 
 .text-dark {
   color: #242222; }
@@ -22,22 +22,22 @@ body {
   background-color: #242222; }
 
 .text-black {
-  color: #030303; }
+  color: black; }
 
 .bg-black {
-  background-color: #030303; }
+  background-color: black; }
 
 .text-primary {
-  color: #f1c240; }
+  color: #0d6efd; }
 
 .bg-primary {
-  background-color: #f1c240; }
+  background-color: #0d6efd; }
 
 .text-secondary {
-  color: #6c63ff; }
+  color: #fd7e14; }
 
 .bg-secondary {
-  background-color: #6c63ff; }
+  background-color: #fd7e14; }
 
 .text-gradient {
   color: linear-gradient(left, #38d39f, #38a4d3); }
@@ -83,12 +83,12 @@ h3 {
   margin: 1.5rem 0 1rem; }
 
 a {
-  color: #f1c240;
+  color: #0d6efd;
   display: inline-block;
   text-decoration: none; }
 
 a:hover {
-  color: #6c63ff;
+  color: #fd7e14;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -110,11 +110,11 @@ nav {
     position: relative; }
     nav .avatar:hover {
       cursor: pointer;
-      background-color: #6c63ff;
+      background-color: #fd7e14;
       transition: background 1000ms ease-in-out, color 2000ms ease-in-out; }
       nav .avatar:hover:after {
         content: "Hey";
-        color: #6c63ff;
+        color: #fd7e14;
         font-family: cursive, Georgia, "Times New Roman", Times, serif;
         position: absolute;
         top: 0px;
@@ -137,7 +137,7 @@ nav {
   display: flex;
   padding: 1rem;
   background-color: #dee2e6;
-  background-color: #fbf0cf; }
+  background-color: #a5c9fe; }
 
 .intro-container {
   display: flex;
