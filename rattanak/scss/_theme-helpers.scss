@@ -13,6 +13,7 @@ $tdbc-color-body: scale-color(
   $lightness: -30%,
   $saturation: -50%
 ) !default;
+
 $tdbc-color-gray: mix(#767676, $tdbc-color-body, 70%) !default;
 
 $tdbc-colors: map-merge(
@@ -36,11 +37,18 @@ $tdbc-ink-colors: primary, secondary, text, gray, light, dark !default;
 // Add/remove to selectively generate `background` (text color) classes
 $bg-colors: primary, secondary, background, gray, light !default;
 
+// color list
+// $colors-list: white, dark, black, primary, secondary;
+
 // light theme (default)
 
-@each $key in $bg-colors {
+// we want .text-primary, .text-secondary
+@each $key, $value in $colors-map {
+  .text-#{$key} {
+    color: $value;
+  }
   .bg-#{$key} {
-    background-color: tdbc-color($key);
+    background-color: $value;
   }
 }
 
