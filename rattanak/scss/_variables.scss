@@ -1,5 +1,5 @@
 // Color system
-
+// available colors to choose from
 $blue: #0d6efd !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
@@ -38,37 +38,51 @@ $gray-900: #212529 !default;
 $dark: rgb(36, 34, 34) !default;
 $black: black !default;
 
-// -------- color by category -----------------
-$color-success: $green !default;
-$color-info: $cyan !default;
-$color-warning: $yellow !default;
-$color-error: $red !default;
-
-// ------ Brand color by function ----------
-$color-default: $gray-900 !default; //main text or background on body
-$color-default-1: $gray-500 !default;
-$color-default-2: $gray-300 !default;
-
-$color-primary: $blue !default; //link, button, primary
-$color-primary-light: lighten($color-primary, 10%) !default;
-$color-primary-dark: darken($color-primary, 10%) !default;
-
-$color-secondary: $orange !default;
-$color-secondary-light: lighten($color-secondary, 10%) !default;
-$color-secondary-dark: darken($color-secondary, 10%) !default;
-
 // gradient
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
 
-$colors-map: (
+// ---------------  COLOR MAP -------------
+// can be overridden
+$COLOR: () !default;
+
+$COLOR_DEFAULT: (
+  black: $black,
+  dark: $dark,
   white: $white,
-  "dark": $dark,
-  "black": $black,
-  "primary": $color-primary,
-  "secondary": $color-secondary,
+  gray: $gray-900,
+  body-text: $gray-800,
+  body-bg: $white,
+  primary: $blue,
+  secondary: $green,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  error: $red,
   gradient: $gradient,
 ) !default;
 
-// Typography
+// use map merge to allow extension in user config
+$COLOR_MAP: map-merge($COLOR_DEFAULT, $COLOR);
+
+// ---------------  COLOR MAP ends -------------
+
+// ---------------  Typography config -------------
 $font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
   sans-serif !default;
+
+// color variables
+$color-success: map-get($COLOR_MAP, "success") !default;
+$color-info: map-get($COLOR_MAP, "info") !default;
+$color-warning: map-get($COLOR_MAP, "warning") !default;
+$color-error: map-get($COLOR_MAP, "error") !default;
+
+$color-body-text: map-get($COLOR_MAP, "body-text") !default;
+$color-body-bg: map-get($COLOR_MAP, "body-bg") !default;
+
+$color-primary: map-get($COLOR_MAP, "primary") !default; //link, button, primary
+$color-primary-light: lighten($color-primary, 10%) !default;
+$color-primary-dark: darken($color-primary, 10%) !default;
+
+$color-secondary: map-get($COLOR_MAP, "secondary") !default;
+$color-secondary-light: lighten($color-secondary, 10%) !default;
+$color-secondary-dark: darken($color-secondary, 10%) !default;

@@ -1,12 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  color: #212529;
+  color: #343a40;
   background-color: #fff; }
 
 .dark-theme, body.dark-theme {
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: #f8f9fa;
+  background-color: #212529; }
+
+.text-black {
+  color: black; }
+
+.bg-black {
+  background-color: black; }
+
+.text-dark {
+  color: #242222; }
+
+.bg-dark {
   background-color: #242222; }
 
 .text-white {
@@ -15,29 +27,59 @@ body {
 .bg-white {
   background-color: #fff; }
 
-.text-dark {
-  color: #242222; }
+.text-gray {
+  color: #212529; }
 
-.bg-dark {
-  background-color: #242222; }
+.bg-gray {
+  background-color: #212529; }
 
-.text-black {
-  color: black; }
+.text-body-text {
+  color: #343a40; }
 
-.bg-black {
-  background-color: black; }
+.bg-body-text {
+  background-color: #343a40; }
+
+.text-body-bg {
+  color: #fff; }
+
+.bg-body-bg {
+  background-color: #fff; }
 
 .text-primary {
-  color: #0d6efd; }
+  color: #1267d6; }
 
 .bg-primary {
-  background-color: #0d6efd; }
+  background-color: #1267d6; }
 
 .text-secondary {
-  color: #fd7e14; }
+  color: #c7e2b7; }
 
 .bg-secondary {
-  background-color: #fd7e14; }
+  background-color: #c7e2b7; }
+
+.text-success {
+  color: #28a745; }
+
+.bg-success {
+  background-color: #28a745; }
+
+.text-info {
+  color: #17a2b8; }
+
+.bg-info {
+  background-color: #17a2b8; }
+
+.text-warning {
+  color: #ffc107; }
+
+.bg-warning {
+  background-color: #ffc107; }
+
+.text-error {
+  color: #dc3545; }
+
+.bg-error {
+  background-color: #dc3545; }
 
 .text-gradient {
   color: linear-gradient(left, #38d39f, #38a4d3); }
@@ -83,12 +125,12 @@ h3 {
   margin: 1.5rem 0 1rem; }
 
 a {
-  color: #0d6efd;
+  color: #1267d6;
   display: inline-block;
   text-decoration: none; }
 
 a:hover {
-  color: #fd7e14;
+  color: #c7e2b7;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -110,11 +152,11 @@ nav {
     position: relative; }
     nav .avatar:hover {
       cursor: pointer;
-      background-color: #fd7e14;
+      background-color: #c7e2b7;
       transition: background 1000ms ease-in-out, color 2000ms ease-in-out; }
       nav .avatar:hover:after {
         content: "Hey";
-        color: #fd7e14;
+        color: #c7e2b7;
         font-family: cursive, Georgia, "Times New Roman", Times, serif;
         position: absolute;
         top: 0px;
@@ -137,7 +179,7 @@ nav {
   display: flex;
   padding: 1rem;
   background-color: #dee2e6;
-  background-color: #a5c9fe; }
+  background-color: #8cb9f5; }
 
 .intro-container {
   display: flex;

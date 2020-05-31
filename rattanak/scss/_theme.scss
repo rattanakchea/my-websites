@@ -1,22 +1,14 @@
-// brand color
-$brand: (
-  text: $gray-900,
-  background: $white,
-  primary: $color-primary,
-  secondary: $color-secondary,
-) !default;
-
 // light theme (default), % is placeholder
 %light-theme {
   font-family: $font-family-base;
-  color: map-get($brand, "text");
-  background-color: map-get($brand, "background");
+  color: $color-body-text;
+  background-color: $color-body-bg;
 }
 
 .dark-theme {
   font-family: $font-family-base;
-  color: $white;
-  background-color: $dark;
+  color: $gray-100;
+  background-color: $gray-900;
 }
 
 body {

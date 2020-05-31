@@ -2,16 +2,14 @@
 
 // color palette chrome-extension://pekhihjiehdafocefoimckjpbkegknoh/screenshot.html?id=100
 
-// override some variables?
-
 $font-family-base: "Roboto", sans-serif;
 
-// $white: #fcfcfc;
-// $black: #030303;
-// $color-default: #030303;
-
-// $color-primary: #f1c240;
-// $color-secondary: #6c63ff;
+// This will override everything
+$COLOR: (
+  // body-text: #702929,
+    primary: #1267d6,
+  secondary: #c7e2b7
+);
 
 @import "../../scss/devin";
 

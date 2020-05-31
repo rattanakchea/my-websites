@@ -1,6 +1,6 @@
 // generate text-primary, .text-secondary, ...
 // bg-primary, bg-secondary, ...
-@each $key, $color in $colors-map {
+@each $key, $color in $COLOR_MAP {
   .text-#{$key} {
     color: $color;
   }
