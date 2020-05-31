@@ -4,10 +4,10 @@
   "description": "This is a place to improve my frontend design.",
   "main": "index.js",
   "scripts": {
-    "node-sass": "node-sass --watch rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css",
-    "start": "npm-run-all --parallel liveserver watch",
+    "node-sass": "node-sass --watch rattanak/scss/devin.scss rattanak/dist/devin.css",
+    "node-sass2": "node-sass rattanak/portfolio/scss/portfolio.scss rattanak/portfolio/scss/portfolio.css -w",
+    "start": "npm-run-all --parallel liveserver node-sass node-sass2",
     "liveserver": "live-server",
-    "watch": "node-sass rattanak/portfolio/scss/portfolio.scss rattanak/portfolio/scss/portfolio.css -w",
     "compile": "node-sass rattanak/portfolio/scss/main.scss rattanak/portfolio/css/main.css",
     "prefix": "postcss css/style.css --use autoprefixer -o rattanak/portfolio/css/main.css",
     "compress": "node-sass css/style.css css/style.css --output-style compressed",

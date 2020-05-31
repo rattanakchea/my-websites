@@ -42,13 +42,14 @@ $bg-colors: primary, secondary, background, gray, light !default;
 
 // light theme (default)
 
-// we want .text-primary, .text-secondary
-@each $key, $value in $colors-map {
+// generate text-primary, .text-secondary, ...
+// bg-primary
+@each $key, $color in $colors-map {
   .text-#{$key} {
-    color: $value;
+    color: $color;
   }
   .bg-#{$key} {
-    background-color: $value;
+    background-color: $color;
   }
 }
 
