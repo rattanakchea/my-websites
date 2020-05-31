@@ -60,14 +60,16 @@ $color-secondary-dark: darken($color-secondary, 10%) !default;
 // gradient
 $gradient: linear-gradient(left, #38d39f, #38a4d3);
 
-// Typography
-$font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
-  sans-serif;
-
 $colors-map: (
   "white": $white,
   "dark": $dark,
   "black": $black,
   "primary": $color-primary,
   "secondary": $color-secondary,
+  "gradient": $gradient,
 ) !default;
+
+// Typography
+$font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
+  sans-serif;
+
