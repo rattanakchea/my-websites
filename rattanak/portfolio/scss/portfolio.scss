@@ -1,14 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap");
 
 // color palette chrome-extension://pekhihjiehdafocefoimckjpbkegknoh/screenshot.html?id=100
 
-$font-family-base: "Roboto", sans-serif;
+$font-family-body: "Barlow", sans-serif;
+$font-family-heading: "Roboto", sans-serif;
 
 // This will override everything
 $COLOR: (
   // body-text: #702929,
-    primary: #1267d6,
-  secondary: #c7e2b7
+    primary: #153cfb,
+  secondary: #da7031,
+  // black: $black,
+    dark: #242a2d,
+  // white: $white,
+    gray: #d2dbec,
+  // body-text: $gray-800,
+    // body-bg: $white,
+    // primary: $blue,
+    // secondary: $green,
+    // success: $green,
+    // info: $cyan,
+    // warning: $yellow,
+    // error: $red,
+    // gradient: $gradient,
 );
 
 @import "../../scss/devin";
@@ -21,7 +36,7 @@ nav {
   min-height: 10vh;
   flex-wrap: wrap;
 
-  .avatar {
+  a.avatar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,15 +44,16 @@ nav {
     height: 3rem;
     width: 3rem;
     position: relative;
+    background-color: $color-secondary;
 
     &:hover {
       cursor: pointer;
-      background-color: $color-secondary;
+      background-color: $gray-400;
       transition: background 1000ms ease-in-out, color 2000ms ease-in-out;
 
       &:after {
         content: "Hey";
-        color: $color-secondary;
+        color: $dark;
         font-family: cursive, Georgia, "Times New Roman", Times, serif;
         position: absolute;
         top: 0px;
@@ -72,7 +88,6 @@ nav {
   padding: 1rem;
   background-color: $gray-300;
   // background-color: #fcf1e2;
-  background-color: lighten($color-primary, 30%);
 }
 
 .intro-container {

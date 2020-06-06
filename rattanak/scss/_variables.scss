@@ -66,10 +66,6 @@ $COLOR_MAP: map-merge($COLOR_DEFAULT, $COLOR);
 
 // ---------------  COLOR MAP ends -------------
 
-// ---------------  Typography config -------------
-$font-family-base: "Helvetica Neue", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
-  sans-serif !default;
-
 // color variables
 $color-success: map-get($COLOR_MAP, "success") !default;
 $color-info: map-get($COLOR_MAP, "info") !default;
@@ -86,3 +82,7 @@ $color-primary-dark: darken($color-primary, 10%) !default;
 $color-secondary: map-get($COLOR_MAP, "secondary") !default;
 $color-secondary-light: lighten($color-secondary, 10%) !default;
 $color-secondary-dark: darken($color-secondary, 10%) !default;
+
+// ---------------  Typography -------------
+$font-family-body: "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, sans-serif !default;
+$font-family-heading: Arial, serif !default;

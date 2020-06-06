@@ -1,12 +1,12 @@
 // light theme (default), % is placeholder
 %light-theme {
-  font-family: $font-family-base;
+  font-family: $font-family-body;
   color: $color-body-text;
   background-color: $color-body-bg;
 }
 
 .dark-theme {
-  font-family: $font-family-base;
+  font-family: $font-family-body;
   color: $gray-100;
   background-color: $gray-900;
 }

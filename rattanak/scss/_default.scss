@@ -23,9 +23,20 @@ body {
 
 h1,
 h2,
-h3 {
-  font-weight: 300;
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  // font-weight: 300;
   margin: 1.5rem 0 1rem;
+  font-family: $font-family-heading;
+  font-weight: 400;
 }
 
 // Links
