@@ -32,7 +32,6 @@ $COLOR: (
 
 nav {
   padding: 1rem 2rem;
-  @include flex(space-between, center, row);
   min-height: 10vh;
   flex-wrap: wrap;
 

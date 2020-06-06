@@ -104,6 +104,18 @@ body {
 .box-shadow {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.05); }
 
+.flex {
+  display: flex; }
+  .flex.jc-sb {
+    justify-content: space-between; }
+  .flex.jc-c {
+    justify-content: center; }
+  .flex.ai-c {
+    align-items: center; }
+  .flex.center {
+    justify-content: center;
+    align-items: center; }
+
 *,
 *::before,
 *::after {
@@ -147,10 +159,6 @@ a:hover {
 
 nav {
   padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
   min-height: 10vh;
   flex-wrap: wrap; }
   nav a.avatar {
@@ -206,15 +214,15 @@ nav {
 footer {
   min-height: 10vh;
   padding: 0% 5%;
+  flex-direction: row;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-direction: row; }
+  align-items: center; }
   footer ul {
     flex: 1 1 40rem;
+    flex-direction: row;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row; }
+    align-items: center; }
   footer h4 {
     flex: 1 1 40rem; }
