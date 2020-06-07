@@ -1,5 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&display=swap");
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* font-size: 100%; */
+  font-weight: normal; }
+
+ul {
+  list-style: none; }
+
+button,
+input,
+select,
+textarea {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%; }
+
+iframe {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0;
+  text-align: left; }
+
 body {
   font-family: "Barlow", sans-serif;
   color: #343a40;
@@ -157,6 +231,14 @@ a:hover {
   text-decoration: underline;
   cursor: pointer; }
 
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
 nav {
   padding: 1rem 2rem;
   min-height: 10vh;
@@ -205,8 +287,34 @@ nav {
   align-items: center; }
   .intro-container div {
     flex-basis: 100%; }
-  .intro-container .intro-social {
-    margin: 1rem 0; }
+  .intro-container .intro__social {
+    display: flex;
+    margin-top: 1.5rem; }
+    .intro-container .intro__social li {
+      height: 2rem;
+      margin-right: 0.5rem;
+      text-align: center;
+      width: 2rem;
+      animation-duration: 1s;
+      animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+      animation-fill-mode: both; }
+      .intro-container .intro__social li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        height: 2rem;
+        opacity: 0.5;
+        transition-property: opacity, transform;
+        width: 2rem;
+        will-change: opacity, transform; }
+        .intro-container .intro__social li a:hover {
+          opacity: 1;
+          transform: scale(1.25);
+          text-decoration: none; }
+        .intro-container .intro__social li a:active {
+          opacity: 1;
+          transform: scale(1.1); }
 
 .work {
   padding: 1rem 0 2rem; }

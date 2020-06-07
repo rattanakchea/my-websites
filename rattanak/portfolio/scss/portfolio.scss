@@ -28,6 +28,18 @@ $COLOR: (
 
 @import "../../scss/devin";
 
+// animation
+@keyframes bounceIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 // custom styles
 
 nav {
@@ -97,8 +109,42 @@ nav {
     flex-basis: 100%;
   }
 
-  .intro-social {
-    margin: 1rem 0;
+  .intro__social {
+    display: flex;
+    margin-top: 1.5rem;
+
+    li {
+      height: 2rem;
+      margin-right: 0.5rem;
+      text-align: center;
+      width: 2rem;
+      animation-duration: 1s;
+      animation-timing-function: cubic-bezier(0, 0.5, 0, 1);
+      animation-fill-mode: both;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        height: 2rem;
+        opacity: 0.5;
+        transition-property: opacity, transform;
+        width: 2rem;
+        will-change: opacity, transform;
+
+        &:hover {
+          opacity: 1;
+          transform: scale(1.25);
+          text-decoration: none;
+        }
+
+        &:active {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+      }
+    }
   }
 
   .image {
