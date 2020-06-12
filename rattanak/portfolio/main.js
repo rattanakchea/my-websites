@@ -34,3 +34,4 @@ function includeHTML(includeHTMLAttr) {
 document.addEventListener("DOMContentLoaded", function (event) {
     includeHTML(config.includeHTMLAttr);
 });
+
