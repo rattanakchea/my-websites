@@ -2,12 +2,6 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
 /*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
@@ -72,4 +66,58 @@ fieldset {
 
 textarea {
   resize: vertical;
+}
+
+// @author Rattanak
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 2rem;
+}
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  // font-weight: 300;
+  margin: 1.5rem 0 1rem;
+  font-family: $font-family-heading;
+  font-weight: 400;
+}
+
+// Links
+a {
+  color: $color-primary;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $color-secondary;
+  // filter: brightness($color-primary-dark);
+  text-decoration: underline;
+  cursor: pointer;
 }

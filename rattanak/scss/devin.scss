@@ -1,11 +1,11 @@
 // This a library that must be imported by other custom website
+@import "custom.scss";
+
 @import "minireset.min";
 @import "variables";
 @import "mixins";
 
-@import "theme"; // utilities class
+@import "base";
+
+@import "theme";
 @import "utilities"; // utilities/helper class
-
-@import "global";
-
-@import "custom.scss";
