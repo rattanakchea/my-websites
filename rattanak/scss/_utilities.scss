@@ -16,25 +16,6 @@ $container-xl: 1028px;
 $container-md: 996px;
 $padding: 1rem;
 
-// Full container
-.full-container {
-  max-width: 100%;
-  padding: 0 1rem;
-}
-
-// Container
-.container {
-  max-width: $container-xl;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-md {
-  @extend .container;
-  max-width: $container-md;
-}
-
 .box-shadow {
   box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
