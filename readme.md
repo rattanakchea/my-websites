@@ -2,6 +2,11 @@
 
 This is a place to improve my frontend design.
 
+## TODO
+
+- Dark Mode (email has a tutorial)
+- Toggle color (like tailblocks site - https://mertjf.github.io/tailblocks/)
+
 ## Goals
 
 - Learn web design, html, modular scss
