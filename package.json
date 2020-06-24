@@ -10,7 +10,7 @@
     "liveserver": "live-server",
     "prefix": "postcss css/style.css --use autoprefixer -o rattanak/portfolio/css/main.css",
     "compress": "node-sass css/style.css css/style.css --output-style compressed",
-    "build": "npm-run-all --parallel node-sass node-sass2",
+    "build": "npm-run-all liveserver",
     "build:devin": "node-sass --watch rattanak/scss/devin-1.0.scss rattanak/scss/dist/devin-1.0.css"
   },
   "devDependencies": {
