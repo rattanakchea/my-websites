@@ -60,6 +60,15 @@ nav {
     flex-direction: column;
     justify-content: space-between;
     margin-right: 1.2rem;
+    cursor: pointer;
+    transform: perspective(1000px) rotateY(var(--rotate-y, 0))
+      translateY(var(--translate-y, 0));
+    transition: 150ms;
+
+    &:hover {
+      --translate-y: -2px;
+      box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
+    }
   }
 
   .card-body {

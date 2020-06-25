@@ -6413,6 +6413,17 @@ nav ul .nav-item {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-right: 1.2rem;
+  cursor: pointer;
+  -webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+          transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+
+.cards-wrapper .card:hover {
+  --translate-y: -2px;
+  -webkit-box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
 }
 
 .cards-wrapper .card-body {
