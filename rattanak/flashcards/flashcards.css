@@ -6394,22 +6394,35 @@ nav ul .nav-item {
   padding: 1rem;
 }
 
-.content .card-wrapper {
+.content .card {
   position: relative;
   width: 300px;
   height: 400px;
-  margin-right: 1.2rem;
-  cursor: pointer;
-}
-
-.content .card {
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  border-radius: 10px;
   -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  margin-right: 1.2rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
   overflow: hidden;
+  -webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+          transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  -webkit-transition: 150ms;
+  transition: 150ms;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.content .card:hover {
+  --translate-y: -2px;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+.content .card .front,
+.content .card .back {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6420,22 +6433,14 @@ nav ul .nav-item {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-          transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
-  -webkit-transition: 150ms;
-  transition: 150ms;
-}
-
-.content .card:hover {
-  --translate-y: -2px;
-  -webkit-box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3);
-}
-
-.content .card.front, .content .card.back {
   position: absolute;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+}
+
+.content .card .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .content .card-body {
