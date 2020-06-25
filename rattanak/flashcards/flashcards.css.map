@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,OAAO,CAAC,6EAAI;AAEZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;EACzB,WAAW,EAAE,uBAAuB;EACpC,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,CAAC;CACV",
+    "sources": [
+        "flashcards.scss"
+    ],
+    "names": [],
+    "file": "flashcards.css"
+}
