@@ -6404,7 +6404,6 @@ nav ul .nav-item {
   cursor: pointer;
   background-color: #fff;
   border-radius: 10px;
-  overflow: hidden;
   -webkit-transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
           transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
   -webkit-transition: 150ms;
@@ -6419,9 +6418,12 @@ nav ul .nav-item {
           box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
 }
 
+.content .card.flip {
+  --rotate-y: 180deg;
+}
+
 .content .card .front,
 .content .card .back {
-  width: 100%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

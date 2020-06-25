@@ -13,3 +13,5 @@
 - Cards: https://appstack.bootlab.io/ui-cards.html
 
 - Page > Portfolio > Masonry: https://themes.getbootstrap.com/preview/?theme_id=4231
+
+* Codepen Box shadow editor: https://codepen.io/WebDevSimplified/pen/MWwbodd

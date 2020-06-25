@@ -40,7 +40,7 @@
 
     <div class="container flex content">
 
-        <div class="card">
+        <div class="card" id="firstCard">
             <div class="front">
                 <div class="card-body">
                     <span class="tag tag-teal">General Knowledge</span>
@@ -48,7 +48,7 @@
                     <p class="card-text">Hint</p>
                 </div>
                 <div class="card-footer">
-                    <p>Reveal</p>
+                    <p class="reveal">Reveal</p>
                 </div>
             </div>
             <div class="back">
@@ -57,8 +57,6 @@
                 </div>
             </div>
         </div>
-
-
 
 
         <!-- <div class="card-wrapper">
@@ -76,6 +74,19 @@
 
     </div>
 
+
+    <script>
+        let element = document.querySelector('.reveal');
+        console.log("element", element)
+
+        element.addEventListener('click', flipCard);
+
+        function flipCard(e) {
+            console.log('flip card: ', e)
+
+            document.getElementById('firstCard').classList.add('flip');
+        }
+    </script>
 </body>
 
 </html>
