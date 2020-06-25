@@ -25,6 +25,7 @@ body {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
   margin: 0;
+  font-size: 16px;
 }
 
 // navigation
@@ -42,4 +43,53 @@ nav {
       padding: 0 1rem;
     }
   }
+}
+
+.cards-wrapper {
+  height: 100%;
+  padding: 1rem;
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.2rem;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1rem;
+    // min-height: 250px;
+  }
+
+  .card-footer {
+    padding: 1rem;
+    background-color: #a5a8a8;
+    text-align: center;
+  }
+}
+
+.tag {
+  background-color: #fff;
+  border-radius: 25px;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+}
+
+.tag-teal {
+  background-color: #92d4e4;
+}
+
+.tag-orange {
+  background-color: orange;
 }

@@ -15,31 +15,51 @@
     <header>
         <nav class="navbar bg-white box-shadow flex jc-sb ai-c">
             <a class="avatar">
-                Flashcards
+                <h2>Flashcards</h2>
             </a>
 
             <ul class="nav-items">
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link active" routerLink="">Home</a>
+                    <a class="nav-link active" routerLink="">Citizenship Tests</a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" routerLink="/projects">Projects</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" routerLink="/apps">Apps</a>
+                    <a class="nav-link" routerLink="/projects">Coding Problem</a>
                 </li>
             </ul>
 
             <ul class="nav-items">
                 <li class="nav-item" role="presentation">
-                    <a class="nav-link" href="">Dark Theme</a>
+                    <a class="nav-link" href="">Overview Mode</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" href="">Study Mode</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        card
+    <div class="container flex cards-wrapper">
+        <div class="card">
+            <div class="card-body">
+                <span class="tag tag-teal">General Knowledge</span>
+                <h4 class="card-title">What is the supreme law of the land?</h4>
+                <p class="card-text">Hint</p>
+            </div>
+            <div class="card-footer">
+                <p>Reveal</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <span class="tag tag-orange">Coding</span>
+                <h4 class="card-title">Find the second largest element in BST</h4>
+                <p class="card-text">Hint</p>
+            </div>
+            <div class="card-footer">
+                <p>Reveal</p>
+            </div>
+        </div>
     </div>
 
 </body>

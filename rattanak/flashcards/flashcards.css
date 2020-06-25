@@ -6368,6 +6368,7 @@ body {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;
   margin: 0;
+  font-size: 16px;
 }
 
 nav {
@@ -6386,5 +6387,68 @@ nav ul {
 
 nav ul .nav-item {
   padding: 0 1rem;
+}
+
+.cards-wrapper {
+  height: 100%;
+  padding: 1rem;
+}
+
+.cards-wrapper .card {
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 1.2rem;
+}
+
+.cards-wrapper .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 1rem;
+}
+
+.cards-wrapper .card-footer {
+  padding: 1rem;
+  background-color: #a5a8a8;
+  text-align: center;
+}
+
+.tag {
+  background-color: #fff;
+  border-radius: 25px;
+  font-size: 12px;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+}
+
+.tag-teal {
+  background-color: #92d4e4;
+}
+
+.tag-orange {
+  background-color: orange;
 }
 /*# sourceMappingURL=flashcards.css.map */
