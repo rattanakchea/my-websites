@@ -53,6 +53,7 @@ nav {
 .card-container {
   width: 200px;
   height: 300px;
+  margin-right: 1rem;
 
   &:hover .card {
     transform: rotateY(180deg);
@@ -76,24 +77,16 @@ nav {
     align-items: center;
     flex-direction: column;
     backface-visibility: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
   }
 
-  figure.front {
-    background: rgb(117, 216, 237);
-    background: linear-gradient(
-      90deg,
-      rgba(117, 216, 237, 1) 0%,
-      rgba(21, 146, 171, 0.7987570028011204) 100%
-    );
+  figure.card-front {
   }
 
-  figure.back {
-    color: white;
-    background: rgb(117, 216, 237);
-    background: linear-gradient(
-      90deg,
-      rgba(21, 146, 171, 0.7987570028011204) 100% rgba(117, 216, 237, 1) 0%
-    );
+  figure.card-back {
     transform: rotateY(180deg);
   }
 }
@@ -102,13 +95,10 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 1rem;
-  // min-height: 250px;
+  min-height: 250px;
 }
 
 .card-footer {
-  padding: 1rem;
-  background-color: #a5a8a8;
   text-align: center;
 }
 

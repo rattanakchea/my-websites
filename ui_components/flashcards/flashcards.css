@@ -6397,6 +6397,7 @@ nav ul .nav-item {
 .card-container {
   width: 200px;
   height: 300px;
+  margin-right: 1rem;
 }
 
 .card-container:hover .card {
@@ -6436,19 +6437,14 @@ nav ul .nav-item {
           flex-direction: column;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.card figure.front {
-  background: #75d8ed;
-  background: -webkit-gradient(linear, left top, right top, from(#75d8ed), to(rgba(21, 146, 171, 0.798757)));
-  background: linear-gradient(90deg, #75d8ed 0%, rgba(21, 146, 171, 0.798757) 100%);
-}
-
-.card figure.back {
-  color: white;
-  background: #75d8ed;
-  background: -webkit-gradient(linear, left top, right top, to(rgba(21, 146, 171, 0.798757)));
-  background: linear-gradient(90deg, rgba(21, 146, 171, 0.798757) 100% #75d8ed 0%);
+.card figure.card-back {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -6464,12 +6460,10 @@ nav ul .nav-item {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: start;
-  padding: 1rem;
+  min-height: 250px;
 }
 
 .card-footer {
-  padding: 1rem;
-  background-color: #a5a8a8;
   text-align: center;
 }
 
