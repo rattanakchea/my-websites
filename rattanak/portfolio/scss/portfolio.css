@@ -6488,6 +6488,20 @@ nav ul .nav-item {
   padding: 1rem 0 2rem;
 }
 
+.work .btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 9px 12.5px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  color: #5f5f5f;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 25px;
+  vertical-align: middle;
+  line-height: 1;
+}
+
 footer {
   min-height: 10vh;
 }
