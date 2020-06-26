@@ -17,3 +17,5 @@
 * Codepen Box shadow editor: https://codepen.io/WebDevSimplified/pen/MWwbodd
 
 - https://codepen.io/jakehong0521/pen/yGqVVJ
+
+- Flipcards2 Codepen: https://codepen.io/rattanakchea/pen/YzwQmYB
