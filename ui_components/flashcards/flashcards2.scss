@@ -40,13 +40,15 @@ body {
   transform-style: preserve-3d;
   position: relative;
   text-align: center;
+  margin-right: 1rem;
+  cursor: pointer;
 
   &:hover .card-front {
-    transform: translate(-50%, -50%) rotateY(180deg);
+    transform: rotateY(180deg);
   }
 
   &:hover .card-back {
-    transform: translate(-50%, -50%) rotateY(360deg);
+    transform: rotateY(360deg);
   }
 
   // animations
@@ -57,7 +59,7 @@ body {
       rgba(117, 216, 237, 1) 0%,
       rgba(21, 146, 171, 0.7987570028011204) 100%
     );
-    transform: translate(-50%, -50%) rotateY(0deg);
+    transform: rotateY(0deg);
   }
 
   .card-back {
@@ -66,7 +68,7 @@ body {
       90deg,
       rgba(21, 146, 171, 0.7987570028011204) 100% rgba(117, 216, 237, 1) 0%
     );
-    transform: translate(-50%, -50%) rotateY(180deg);
+    transform: rotateY(180deg);
   }
 
   .card-front,
@@ -74,8 +76,6 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
     margin: 0;
     padding: 1rem;
     display: flex;
@@ -83,7 +83,7 @@ body {
     align-items: center;
     flex-direction: column;
     backface-visibility: hidden;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
   }
 }
 

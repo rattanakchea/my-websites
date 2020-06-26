@@ -6387,32 +6387,34 @@ body {
           transform-style: preserve-3d;
   position: relative;
   text-align: center;
+  margin-right: 1rem;
+  cursor: pointer;
 }
 
 .card:hover .card-front {
-  -webkit-transform: translate(-50%, -50%) rotateY(180deg);
-          transform: translate(-50%, -50%) rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .card:hover .card-back {
-  -webkit-transform: translate(-50%, -50%) rotateY(360deg);
-          transform: translate(-50%, -50%) rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
 }
 
 .card .card-front {
   background: #75d8ed;
   background: -webkit-gradient(linear, left top, right top, from(#75d8ed), to(rgba(21, 146, 171, 0.798757)));
   background: linear-gradient(90deg, #75d8ed 0%, rgba(21, 146, 171, 0.798757) 100%);
-  -webkit-transform: translate(-50%, -50%) rotateY(0deg);
-          transform: translate(-50%, -50%) rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
 }
 
 .card .card-back {
   background: #75d8ed;
   background: -webkit-gradient(linear, left top, right top, to(rgba(21, 146, 171, 0.798757)));
   background: linear-gradient(90deg, rgba(21, 146, 171, 0.798757) 100% #75d8ed 0%);
-  -webkit-transform: translate(-50%, -50%) rotateY(180deg);
-          transform: translate(-50%, -50%) rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .card .card-front,
@@ -6420,8 +6422,6 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
   margin: 0;
   padding: 1rem;
   display: -webkit-box;
@@ -6439,8 +6439,8 @@ body {
           flex-direction: column;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .card-body {
