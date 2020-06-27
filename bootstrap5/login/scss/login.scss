@@ -1,0 +1,23 @@
+// override variable
+
+$primary: rgb(146, 19, 231);
+$secondary: #f7f8fc;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 330px;
+  padding: 1rem;
+  margin: auto; //center;
+}
