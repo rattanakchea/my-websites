@@ -7066,3 +7066,9 @@ html,
 body {
   width: 100%;
   height: 100%; }
+
+.row > [class*="col-"] + [class*="col-"] {
+  margin-top: 3rem; }
+
+.btn + .btn {
+  margin-left: 0.5rem; }
