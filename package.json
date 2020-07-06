@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "node-sass": "node-sass --watch devin/devin.scss devin/dist/devin.css",
+    "node-sass-temp": "node-sass --watch bootstrap5/theme-awesome/scss/awesome.scss bootstrap5/theme-awesome/scss/awesome.css",
     "node-sass2": "node-sass rattanak/portfolio/scss/portfolio.scss rattanak/portfolio/scss/portfolio.css -w",
     "start": "npm-run-all --parallel liveserver node-sass node-sass2",
     "liveserver": "live-server",

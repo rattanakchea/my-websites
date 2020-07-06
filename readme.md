@@ -2,6 +2,10 @@
 
 This is a place to improve my frontend design.
 
+
+- https://www.frontendmentor.io/
+- https://devchallenges.io/
+
 ## TODO
 
 - Dark Mode (email has a tutorial)
