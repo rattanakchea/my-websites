@@ -26,6 +26,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.0-alpha1",
-    "bootstrap-icons": "^1.0.0-alpha4"
+    "bootstrap-icons": "^1.0.0-alpha5"
   }
 }

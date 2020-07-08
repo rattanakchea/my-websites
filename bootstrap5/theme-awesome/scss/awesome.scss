@@ -20,9 +20,9 @@ body {
 // common helpers
 // apply margin to second column?
 
-.row > [class*="col-"] + [class*="col-"] {
-  margin-top: 3rem;
-}
+// .row > [class*="col-"] + [class*="col-"] {
+//   margin-top: 3rem;
+// }
 
 .btn + .btn {
   margin-left: 0.5rem;
