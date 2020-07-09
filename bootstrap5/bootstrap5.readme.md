@@ -4,3 +4,10 @@
 
 - build this: https://themes.getbootstrap.com/preview/?theme_id=23273
 - https://landkit.goodthemes.co/
+
+## Icons
+
+- Font awesome: https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+- ionicons
+- Boostrap icons
+- Material icons
