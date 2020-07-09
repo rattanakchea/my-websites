@@ -7069,3 +7069,13 @@ body {
 
 .btn + .btn {
   margin-left: 0.5rem; }
+
+footer {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+  box-sizing: border-box;
+  background-color: #171347 !important;
+  padding-top: 6rem !important;
+  color: #a0aec0; }
