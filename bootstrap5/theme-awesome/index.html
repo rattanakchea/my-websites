@@ -26,21 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mt-4 mt-lg-0 ml-auto">
                     <li class="nav-item ">
-                        <a class="nav-link" href="index.html">Overview</a>
-                    </li>
-                    <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
-                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">Pages</a>
-                        <div class="dropdown-menu dropdown-menu-single">
-                            <a href="index.html" class="dropdown-item">Homepage</a>
-                            <a href="" class="dropdown-item">About us</a>
-                            <a href="" class="dropdown-item">Contact</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="" class="dropdown-item">Login</a>
-                        </div>
+                        <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="docs/index.html">Docs</a>
+                        <a class="nav-link" href="#">Apps</a>
                     </li>
 
                 </ul>
@@ -49,6 +38,22 @@
                     href="https://github.com/webpixels/quick-website-ui-kit-demo/archive/master.zip">
                     Download Free
                 </a>
+
+                <a class="icon p-2 border-0 btn-toggle">
+                    <svg class="bi" width="25" height="25" fill="currentColor">
+                        <use xlink:href="img/svg/bootstrap-icons.svg#moon" />
+                    </svg>
+                </a>
+                <!-- <a class="icon text-primary p-2 btn-toggle">
+                    <svg class="bi" width="25" height="25" fill="currentColor">
+                        <use xlink:href="img/svg/bootstrap-icons.svg#sun" />
+                    </svg>
+                </a> -->
+                <!-- <button class="icon p-2 border-0">
+                    <svg class="bi" width="25" height="25" fill="currentColor">
+                        <use xlink:href="img/svg/bootstrap-icons.svg#moon" />
+                    </svg>
+                </button> -->
                 <!-- Mobile button -->
                 <div class="d-lg-none text-center">
                     <a href="https://webpixels.io/themes/quick-website-ui-kit"
@@ -238,7 +243,26 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 
+    <script>
+        //dark mode
 
+        const btn = document.querySelector('.btn-toggle');
+
+        const sun = `<svg class="bi" width="25" height="25" fill="currentColor">
+                <use xlink:href="img/svg/bootstrap-icons.svg#sun"/></svg>`;
+        const moon = `<svg class="bi" width="25" height="25" fill="currentColor">
+                <use xlink:href="img/svg/bootstrap-icons.svg#moon"/></svg>`;
+        // Listen for a click on the button
+        btn.addEventListener('click', function () {
+            // Then toggle (add/remove) the .dark-theme class to the body
+            document.body.classList.toggle('dark-theme');
+            if (document.body.classList.contains('dark-theme')) {
+                btn.innerHTML = sun;
+            } else {
+                btn.innerHTML = moon;
+            }
+        })
+    </script>
 </body>
 
 </html>

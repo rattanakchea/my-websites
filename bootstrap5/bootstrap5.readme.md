@@ -11,3 +11,6 @@
 - ionicons
 - Boostrap icons
 - Material icons
+
+
+## Dark Mode

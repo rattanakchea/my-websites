@@ -15,6 +15,13 @@ body {
   height: 100%;
 }
 
+// dark mode
+/* Dark Mode styles */
+body.dark-theme {
+  color: #eee;
+  background: #121212;
+}
+
 // responsive
 
 // common helpers
