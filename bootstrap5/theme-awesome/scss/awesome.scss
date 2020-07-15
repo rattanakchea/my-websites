@@ -17,10 +17,43 @@ body {
 
 // dark mode
 /* Dark Mode styles */
-body.dark-theme {
-  color: #eee;
-  background: #121212;
+
+$dark: #121212;
+$dark-light: rgb(31, 30, 30);
+$light: #eee;
+
+// body.dark-theme {
+//   color: #eee;
+//   background: #121212;
+// }
+
+// override bootstrap css class
+[data-theme="dark"] {
+  background-color: $dark !important;
+  color: $light;
+
+  .bg-light {
+    background-color: #333 !important;
+  }
+  
+  .bg-white {
+    background-color: #000 !important;
+  }
+  .bg-black {
+    background-color: $light !important;
+  }
+  
+  .bg-gradient-light {
+    background-color: $dark !important;
+  }
+   .card {
+    background-color: $dark-light !important;
+    border-color: $light;
+  }
 }
+
+
+
 
 // responsive
 
@@ -36,14 +69,7 @@ body.dark-theme {
 }
 
 .bg-gradient-light {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#f9fbfd),
-    to(#fff)
-  );
-  background-image: linear-gradient(to bottom, #f9fbfd 0, #fff 100%);
+  background-color: linear-gradient(to bottom, #f9fbfd 0, #fff 100%);
 }
 
 // footer section

@@ -14,3 +14,7 @@
 
 
 ## Dark Mode
+
+- https://coliff.github.io/dark-mode-switch/index.html
+- https://dev.to/wgao19/night-mode-with-mix-blend-mode-difference-23lm
+- https://darkmodejs.learn.uno/
