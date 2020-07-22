@@ -7098,3 +7098,27 @@ footer {
     padding: 0.5rem 0;
     font-size: 0.875rem;
     color: #a0aec0; }
+
+.tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .tags a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: gray; }
+    .tags a:before {
+      content: "#"; }
+    .tags a:after {
+      content: " "; }
+
+.badge {
+  padding: 0.5rem;
+  background-color: #cee6ee;
+  color: #3a9fc0;
+  text-decoration: none; }
+
+.badge-secondary {
+  color: gray; }
+
+.action-area {
+  margin-top: auto; }

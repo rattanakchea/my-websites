@@ -35,25 +35,22 @@ $light: #eee;
   .bg-light {
     background-color: #333 !important;
   }
-  
+
   .bg-white {
     background-color: #000 !important;
   }
   .bg-black {
     background-color: $light !important;
   }
-  
+
   .bg-gradient-light {
     background-color: $dark !important;
   }
-   .card {
+  .card {
     background-color: $dark-light !important;
     border-color: $light;
   }
 }
-
-
-
 
 // responsive
 
@@ -86,4 +83,36 @@ footer {
     font-size: 0.875rem;
     color: #a0aec0;
   }
+}
+
+.tags {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: gray;
+
+    &:before {
+      content: "#";
+    }
+    &:after {
+      content: " ";
+    }
+  }
+}
+.badge {
+  padding: 0.5rem;
+  background-color: rgb(206, 230, 238);
+  color: darken($color: lightblue, $amount: 30);
+  text-decoration: none;
+}
+
+.badge-secondary {
+  color: gray;
+}
+
+.action-area {
+  margin-top: auto;
 }
